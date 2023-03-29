@@ -12,9 +12,11 @@ The script takes three command-line arguments:
 ./x-officers.py -k dev -t 10 urls.txt
 
 Alternatively, you can pipe URLs into the script like this:
+
 cat url.txt | ./x-officers.py -k dev -t 10
 
 You can also provide a single URL as an argument:
+
 ./x-officers.py -k my_keyword -t 10 https://example.com
 
 #Thanks to Team SafeCottage.org
